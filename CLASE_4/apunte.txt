@@ -1,3 +1,6 @@
+INSTALAR GIT
+configurar user name y email en git bash
+
 PS C:\Users\USUARIO\Desktop\FULL STACK> git init 
 Initialized empty Git repository in C:/Users/USUARIO/Desktop/FULL STACK/.git/
 PS C:\Users\USUARIO\Desktop\FULL STACK> git add .
@@ -17,8 +20,16 @@ PS C:\Users\USUARIO\Desktop\FULL STACK> git commit -m 'mi primer version de git'
 
 hola hola hola hola 
 
+ANTES QUE NADA ctrl + s
+
 git init --> para inicializar git en este proyecto
 git add . --> agrego toda la carpeta para versionarla
 git commit -m 'comentario' --> subo al git la version nueva con un comentario
+
+--renovar la rama principal a main--
+
+git branch -M main
+git remote add origin https://github.com/lpacheco7/repositorio-de-prueba.git (enlace entre git y github)
+git push -u origin main
 
 abrir la terminal ctrl + ñ
