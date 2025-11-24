@@ -32,4 +32,6 @@ git branch -M main
 git remote add origin https://github.com/lpacheco7/repositorio-de-prueba.git (enlace entre git y github)
 git push -u origin main
 
+git push para subir todo
+
 abrir la terminal ctrl + ñ
