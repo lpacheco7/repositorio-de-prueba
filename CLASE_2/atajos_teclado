@@ -1,0 +1,8 @@
+ctr + s = guardar
+ctr + c = copiar
+ctr + v = pegar
+ctr + x = cortar
+ctr + y = rehacer
+ctr + z = deshacer
+alt + z = ajuste de texto
+alt + shift + a = comentario

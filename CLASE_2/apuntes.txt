@@ -1,0 +1,56 @@
+13/11/2025
+
+SINTAXIS
+
+HTML: Nos sirve para marcar la estructura de nuesta web
+CSS: Nos permite hacer los estilos de nuestra web
+Java Sript: Nos permite hacer la funcionalidad de nuestra web
+
+Etiquetas: 
+    El tipo de etiqueta esta definido por el elemnto
+
+Autocierre: 
+    <img/> -> <= HTML 4
+    <img> -> <= HTML 5
+
+Cierre: 
+    Tienen la caracteristica de poder contener contenido (como texto u otras etiquetas)
+
+    <div>hola</div>
+    <button>Click</button>
+    <a>Ir a inicio</a>
+    <b></b>
+
+ELEMENTOS: 
+    Los elementos tienen un significado o funcionalidad
+
+    - img -> colocar imagines en la pagina
+    - div -> dividir secciones de la pagina
+    - button -> crear botones
+    - a -> hacer hipervinculos (ancla)
+    - b -> Bold (negrita)
+
+ATRIBUROS:
+    Son configuraciones sobre el elemento
+
+    El elemento IMG: 
+        - src (Source): direccion web valida donde esta la imagen que queres colocar
+        - with: la medida que tendra la imagen en pixeles (px)
+
+    El elemento ANCLA:
+        - href (HOST REFERENCE): direccion web valida a la que vamos a ir
+
+Nesting (anidamiento):
+    Es la caracteristica de las etiquetas de cierre de poder encerrar como contenido a otras etiquetas
+    Ejemplo1: <div><img></div>
+    Ejemplo2: <div><button><Comprar</button><a><b>Reclama</b></a></div>
+
+Indentacion (Indent): 
+    Poder marcar con espacios la jerarquia/orden del codigo
+
+<div>
+    <button></button>
+    <a>
+        <b>Reclamar</b>
+    </a>
+</div>

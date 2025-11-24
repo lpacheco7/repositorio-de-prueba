@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pagina de contacto</h1>
+    <!-- FORM
+        nombre
+        email
+        numero de tel
+        mensaje 
+    -->
+    
+    <form action=""> <!-- FORMULARIO -->
+        <!-- for se conecta al id relacionado (esto es para no-videntes) -->
+        <div>
+            <label for="nombre">Nombre: </label> <!-- QUE PIDE -->
+            <input type="text" id="nombre"> <!-- QUE TIPO DE INPUT -->
+        </div>
+        <div>
+            <label for="email">Email: </label> <!-- QUE PIDE -->
+            <input type="email" id="email"> <!-- esto sirve para validar un email -->
+        </div>
+        <div>
+            <label for="tel">Telefono: </label> <!-- QUE PIDE -->
+            <input type="number" id="tel" required> <!-- numero obligarorio -->
+        </div>
+        <div>
+            <label for="msg">Mensaje: </label> <!-- QUE PIDE -->
+            <input type="text" id="msg">
+        </div>
+        <div>
+            <label for="color">Color favorito: </label> <!-- QUE PIDE -->
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="fecha">Fecha de nacimiento: </label> <!-- QUE PIDE -->
+            <input type="date" id="fecha">
+        </div>
+        <button type="submit">Enviar</button> <!-- BOTTON PARA ENVIAR FORMULARIO -->
+    </form>
+</body>
+</html>
