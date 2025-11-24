@@ -15,8 +15,10 @@ PS C:\Users\USUARIO\Desktop\FULL STACK> git commit -m 'mi primer version de git'
  create mode 100644 CLASE_3/videos/video-ejemplo2.mp4
  create mode 100644 CLASE_4/index4.html
 
+hola hola hola hola 
+
 git init --> para inicializar git en este proyecto
 git add . --> agrego toda la carpeta para versionarla
-git commit -m 'comentario' --> subo al git la version nueva
+git commit -m 'comentario' --> subo al git la version nueva con un comentario
 
 abrir la terminal ctrl + ñ
