@@ -1,0 +1,22 @@
+PS C:\Users\USUARIO\Desktop\FULL STACK> git init 
+Initialized empty Git repository in C:/Users/USUARIO/Desktop/FULL STACK/.git/
+PS C:\Users\USUARIO\Desktop\FULL STACK> git add .
+PS C:\Users\USUARIO\Desktop\FULL STACK> git commit -m 'mi primer version de git'
+[master (root-commit) 920dcae] mi primer version de git
+ 10 files changed, 237 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 CLASE_2/apuntes.txt
+ create mode 100644 CLASE_2/atajos_teclado
+ create mode 100644 CLASE_2/index2.html
+ create mode 100644 CLASE_2/keyboard-shortcuts-windows.pdf
+ create mode 100644 CLASE_3/contacto.html
+ create mode 100644 CLASE_3/imagenes/empanada2.png.webp
+ create mode 100644 CLASE_3/index3.html
+ create mode 100644 CLASE_3/videos/video-ejemplo2.mp4
+ create mode 100644 CLASE_4/index4.html
+
+git init --> para inicializar git en este proyecto
+git add . --> agrego toda la carpeta para versionarla
+git commit -m 'comentario' --> subo al git la version nueva
+
+abrir la terminal ctrl + ñ
