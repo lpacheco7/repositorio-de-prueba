@@ -35,3 +35,5 @@ git push -u origin main
 git push para subir todo
 
 abrir la terminal ctrl + ñ
+
+hola hola
