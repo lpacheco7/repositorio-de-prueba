@@ -1,0 +1,56 @@
+/* LOS ESTILOS LOS PONEMOS EN OTRO ARCHIVO Y DESPUES LOS LINKEAMOS AL INDEX*/
+
+/* LISTA DE ESTILOS */
+
+/* etiqueta{} este estilo es para todas las etiquetas */
+/* .clase{} esto es para definir el estilo de la clase*/
+
+h1 {
+    /* TODOS LOS h1 tienen este estilo */
+    color: red;
+    font-size: 200px;
+    background-color: black;
+}
+
+.titulo {
+    /* TODOS LOS QUE TENGAN LA CLASE titulo TIENEN ESTE ESTILO */
+    color: white;
+    font-size: 200px;
+    background-color: royalblue;
+}
+
+.titulo-especial {
+    /* TODOS LOS QUE TENGAN LA CLASE titulo-especial TIENEN ESTE ESTILO */
+    color: green;
+    font-size: 100px;
+    background-color: yellow;
+}
+
+.pildora {
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    color: black;
+    /* le doy forma de pildora y le pongo texto negro */
+}
+
+/* con estas clases le doy el color al fondo*/
+.pildora-violeta { 
+    background-color: #8f7cfb;
+}
+.pildora-gris {
+    background-color: grey;
+}
+
+.boton { /* esto lo saque de chatgpt */
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #6a5af9, #8f7cfb);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
