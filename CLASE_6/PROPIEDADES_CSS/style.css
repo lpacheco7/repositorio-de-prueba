@@ -7,15 +7,21 @@
     font-family: 'Poppins', sans-serif; /* tipo de letra */
 }
 
+/* Clase utilitaria */
+.tytle-ff{
+    font-family: 'Playwrite NZ Guides', cursive; 
+}
+
 .parrafo{
-    font-size: 24px;/* modificar el tamaño del texto */
+    font-size: 24px; /* modificar el tamaño del texto */
     color: blue;/* color */
     text-align: center; /* centrar texto como en word */
     word-spacing: 10px;
     letter-spacing: 1px;
-    text-decoration: underline dotted red; /* linea roja subrayada con linea punteada */
+
 }
 
 .negrita{
+    text-decoration: underline dotted red; /* linea roja subrayada con linea punteada */
     font-weight: 900;
 }
