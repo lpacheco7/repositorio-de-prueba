@@ -3,13 +3,12 @@
 
 /* Propiedades de texto */
 
+/* normalizacion simple */
 *{
     font-family: 'Poppins', sans-serif; /* tipo de letra */
-}
-
-/* Clase utilitaria */
-.tytle-ff{
-    font-family: 'Playwrite NZ Guides', cursive; 
+    box-sizing: border-box; /* para que el padding y border no modifiquen las dimensiones originales del elemento */
+    margin: 0;
+    padding: 0;
 }
 
 .parrafo{
@@ -24,4 +23,27 @@
 .negrita{
     text-decoration: underline dotted red; /* linea roja subrayada con linea punteada */
     font-weight: 900;
+}
+
+/* Clase utilitaria */
+.titulo-ff{
+    font-family:'Playwrite NZ Guides', cursive; 
+}
+
+/* box modelind */
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px; /* bordes redondeados 10px = 50%*/
+
+    /* padding: 10px; margen cuadrado de 10x10 se suman a los costados de la caja original*/
+
+    /* padding: 10px, 20px; padding 10 en la vertical y yo en la horizontal */
+
+    padding: 10px 20px 40px 60px; /* padding 10px arriba, 20px der, 40px abajo, 60px izq*/
+
+    border: 10px solid red; /* borde rojo solido de 10px */
+    margin-left: 200px; /* margen externo de 200px a la izquierda */
+    color: white;
 }
