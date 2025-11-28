@@ -1,0 +1,53 @@
+/* 
+Especificidad: que tan especificos somos a la hora de poner estilos
+Cascada: Dependiendo del orden nuestro codigo una instruccion podria tener mas precedencia que otra
+*/
+
+/* El sector de clase es mas especifico que el de elementos */
+
+/* Selector universal, esto se usa para normalizar todos los textos tienen esa fuente a no ser que se modifique con otro selector de mayor jerarquia.
+El selector universal va a hacer que el navegador no elija su estilo en los elementos que no especificaste */
+*{  /* Selector universal */
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{ /* Selector de elemento */
+    color: yellow;
+}
+
+
+.titulo{ /* Selector de clase */
+    color: red;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+
+.titulo--secundario{ /* Clase modificadora */
+    color: green;
+}
+
+#titulo{ /* Selector de ID */
+    color: blueviolet;
+}
+
+.parrafo{
+    color: violet;
+}
+
+.parrafo{
+    color: darkblue;
+}
+
+/* Cuando tienen la misma jerarquia se toma el ultimo en declararse x cascada */
+
+/* JERARQUIA/ESPECIFICIDAD */
+/* 
+    !important
+    ID
+    CLASE
+    ELEMENTO
+    UNIVERSAL
+*/
