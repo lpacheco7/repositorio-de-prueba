@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeScreen from "./screens/home/homeScreen.jsx";
 import AllScreen from "./screens/all/allScreen.jsx";
 import ImagesScreen  from "./screens/images/imagesScreen.jsx";
-import MapsScreen from "./screens/maps/MapsScreen.jsx"
-import MusicScreen from "./screens/music/MusicScreen.jsx"
+import MapsScreen from "./screens/maps/mapsScreen.jsx"
+import MusicScreen from "./screens/music/musicScreen.jsx"
 
 function App() {
 
