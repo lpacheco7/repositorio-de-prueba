@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../../components/header.jsx"
-import "./AllScreen.css";
+import "./allScreen.css";
 
 function AllScreen() {
     const fechaInicio = new Date(2026, 2, 6, 19, 6);

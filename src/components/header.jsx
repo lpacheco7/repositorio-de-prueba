@@ -1,6 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
-import "./Header.css";
+import "./header.css";
 
 function Header() {
     const navigate = useNavigate();
