@@ -1,0 +1,121 @@
+/* MusicScreen.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.musicContainer {
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.videoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 32px 24px 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.video-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5f7;
+    border: 2px solid #e91e63;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 3px 10px rgba(194, 24, 91, 0.2);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.video-card:hover {
+    box-shadow: 0 5px 16px rgba(194, 24, 91, 0.3);
+    transform: translateY(-2px);
+}
+
+.videoTitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+
+.videoArtist {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #e91e63;
+    margin-bottom: 12px;
+}
+
+/* Contenedor responsive para el iframe (mantiene ratio 16:9) */
+.videoWrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.videoQuote {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #c2185b;
+    padding: 8px 16px 16px;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .videoQuote {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .videoQuote {
+        font-size: 1.15rem;
+        padding: 8px 8px 12px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .videoGrid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 18px;
+        padding: 24px 16px 48px;
+    }
+}
+
+
+/* Celulares */
+@media (max-width: 480px) {
+    .videoGrid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 20px 16px 40px;
+    }
+
+    .videoTitle {
+        font-size: 1rem;
+    }
+
+    .videoArtist {
+        font-size: 0.9rem;
+    }
+}
