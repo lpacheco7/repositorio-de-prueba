@@ -58,11 +58,11 @@ function AllScreen() {
                 </p>
 
                 <p>
-                    De una manera muy intensa y con cero disimulos empecé a demostrar cada vez mis sentimientos hacia vos, me gustabas mucho y quería algo serio, al principio resultaste medio reacia a la idea y medio arisca a mis demostraciones de afecto, eso me preocupo, pero con el paso del tiempo ya estábamos en la misma sintonía, a día de hoy creo que vos sos más <span className="highlight">amorosa</span> que yo ahora y me encanta.
+                    De una manera muy intensa y con cero disimulos empecé a demostrar cada vez mis sentimientos hacia vos, me gustabas mucho y quería algo serio, al principio resultaste medio reacia a la idea y medio arisca a mis demostraciones de afecto, eso me preocupo, pero con el tiempo ya estábamos en la misma sintonía, a día de hoy creo que vos sos más <span className="highlight">amorosa</span> que yo, y me encanta.
                 </p>
 
                 <p>
-                    Me encanta tu forma de ser, tu sentido del humor, lo cariñosa y detallista que sos, admiro mucho lo responsable que sos con el estudio, me encanta que me muestres música, pelis, libros, <span className="highlight">amquiero seguir descubriendo cosas con vosorosa</span>.
+                    Me encanta tu forma de ser, tu sentido del humor, lo cariñosa y detallista que sos, admiro mucho lo responsable que sos con el estudio, me encanta que me muestres música, pelis, libros, y <span className="highlight">quiero seguir descubriendo cosas con vos</span>.
                 </p>
 
                 <p>
@@ -70,7 +70,7 @@ function AllScreen() {
                 </p>
 
                 <p>
-                    Te agradezco que me acompañes día a día, me apoyes y me hagas sentir tan bien. Me amas de una manera que nunca me habían amado, tuviste y tenes gestos y actitudes que nadie nunca antes había tenido conmigo, detalles mimos palabras lindas. Al lado tuyo siento que puedo con todo, vos me haces creer en mi mismo y ves en mi virtudes que yo no encuentro.
+                    Te agradezco que me acompañes día a día, me apoyes y me hagas sentir tan bien. Me amas de una manera que nunca me habían amado, tuviste y tenes gestos y actitudes que nadie había tenido conmigo, detalles mimos palabras lindas. Al lado tuyo siento que puedo con todo, vos me haces creer en mi mismo, y ves en mi virtudes que yo no encuentro.
                 </p>
 
                 <p>
@@ -78,7 +78,7 @@ function AllScreen() {
                 </p>
 
                 <p>
-                    Esta es mi forma de escribirte una cartita de amor jasajas,.
+                    Esta es mi forma de escribirte una cartita jasajas,.
                 </p>
 
                 <p>
