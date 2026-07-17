@@ -74,7 +74,7 @@ function AllScreen() {
                 </p>
 
                 <p>
-                    Quiero seguir acompañándote en tu camino, que por cosas de la vida se cruzó con el mío, seguir recibiendo tu amor y darte del mío.
+                    Quiero seguir acompañándote en tu camino, que por cosas de la vida se cruzó con el mío, seguir escuchandote reír y ver tu sonrisa, seguir recibiendo tu amor y darte del mío.
                 </p>
 
                 <p>
